@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-md-import-to-string",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Imports a MD file to string for processing by other plugins",
   "main": "lib/index.js",
   "scripts": {
