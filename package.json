@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-transform-md-import-to-string",
+  "version": "1.0.1",
+  "description": "Imports a MD file to string for processing by other plugins",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khrome83/babel-plugin-transform-md-import-to-string.git"
+  },
+  "keywords": [
+    "babel-plugin",
+    "markdown",
+    "import",
+    "string"
+  ],
+  "author": "Zane C. Milakovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khrome83/babel-plugin-transform-md-import-to-string/issues"
+  },
+  "homepage": "https://github.com/khrome83/babel-plugin-transform-md-import-to-string#readme",
+  "dependencies": {
+    "rework": "^1.0.1",
+    "rework-import": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
